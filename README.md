@@ -1,6 +1,8 @@
 HTML5 Doodle Jump
 =================
 
+Modified!
+
 This is a recreation of Doodle Jump that originally comes for Android and iOS devices. This game is created using awesome HTML5 API and Canvas. It does not have all of the features that the original game has (for now) like Monsters, Power ups etc.
 
 I'll be releasing a second version of this game with more features from the original game along with sounds to make this game more fun. Stay tuned for more game releases by me :D
