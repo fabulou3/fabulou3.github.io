@@ -24,7 +24,7 @@ var platforms = [],
   animloop,
   flag = 0,
   menuloop, broken = 0,
-  dir, score = 0, firstRun = true;
+  dir, score = 1000, firstRun = true;
 
 //Base object
 var Base = function() {
