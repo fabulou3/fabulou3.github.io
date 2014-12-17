@@ -25,7 +25,6 @@ var platforms = [],
   flag = 0,
   menuloop, broken = 0,
   dir, score = 1000, firstRun = true;
-  dir, score = 1000, firstRun = false;
 
 //Base object
 var Base = function() {
