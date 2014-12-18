@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>html 5ness</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="/assets/js/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <canvas id="canvas">
+        Your browser has no HTML5 :(
+            </canvas>
+
+      <div id="mainMenu">
+        <h1>Surf The Web Four-Chrome on the deep web</h1>
+        <h3>using HTML5</h3>
+        <h3>By <a href="http://www.github.com/fabulou3/" target="_blank">Fabulou3</a> on GitHub</h3>
+        <h3>Visit me on:</h3>
+        <h5><a href="http://www.kingpickaxe.com">My website</a></h5>
+        <h5><a href="http://www.youtube.com/user/kingpickaxe/">My Youtube</a></h5>
+        <h5><a href="http://www.instagram.com/fourstoaster">My Instagram</a></h5>
+        <p class="info">
+          use
+          <span class="key left">←</span>
+          <span class="key right">→</span>
+          to move and space to (re) start...
+        </p>
+        <a class="button" href="javascript:init()">play</a>
+      </div>
+
+      <div id="gameOverMenu">
+        <h1>1 more time?</h1>
+        <h3 id="go_score">expeccially if that was ur first go</h3>
+
+        <a class="button" href="javascript:reset()">do it again</a>
+        <a id="tweetBtn" target="_blank" class="button tweet" href="#">Tweet it</a>
+
+        <a id="fbBtn" target="_blank" class="button fb" href="#">Facebook it</a>
+      </div>
+
+      <!-- Preloading image ;) -->
+      <img id="sprite" src="spritesheet.png"/>
+
+      <div id="scoreBoard">
+        <p id="score">0</p>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
