@@ -211,7 +211,7 @@ var Player = function(){
 	this.movingRight = false;
 	this.speed = 8;
 	this.invincible = false;
-	this.color = "white";
+	this.color = "dark red";
 };
 
 
@@ -263,14 +263,14 @@ Player.prototype.shoot = function(){
 
 
 var Bullet = function(x){  
-	this.width = 8;
-	this.height = 20;
+	this.width = 1;
+	this.height = 1;
 	this.x = x;
 	this.y = Game.c.height - 10;
 	this.vy = 8;
 	this.index = Game.bulletIndex;
 	this.active = true;
-	this.color = "red";
+	this.color = "dark red";
 	
 };
 
