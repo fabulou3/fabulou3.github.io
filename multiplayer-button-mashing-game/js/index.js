@@ -143,7 +143,7 @@ if(cond)
         var rand = Math.round(Math.random() * 30000) + 500;
         setTimeout(function() {
             cond3 = true;
-            $("#result").text("Quick! A boost is avaliable!");
+            $("#result").text("PRESS YOUR BOOST BUTTON");
             loop();
         }, rand);
     }());
