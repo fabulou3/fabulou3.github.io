@@ -263,8 +263,8 @@ Player.prototype.shoot = function(){
 
 
 var Bullet = function(x){  
-	this.width = 1;
-	this.height = 1;
+	this.width = 8;
+	this.height = 20;
 	this.x = x;
 	this.y = Game.c.height - 10;
 	this.vy = 8;
